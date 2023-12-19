@@ -111,9 +111,24 @@ h1{
   
 }
 .input-row .input-groupb {
-    flex-basis: 70%;
+     flex-basis: 70%;
     
 }
+
+.input-groupd{
+    display: flex;
+}
+.cardnumber {
+    width:300px;
+}
+
+.cardyear {
+    width: 100px;
+}
+.cardcvc {
+    width: 50px;
+}
+
 .input-row .input-groupc {
     flex-basis: 100%;
 }
@@ -191,6 +206,7 @@ input[type="submit"]:hover {
         display: block;
         margin-bottom: 10px;
         font-size: 15px;
+        
         
     }
 
